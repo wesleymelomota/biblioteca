@@ -1,0 +1,6 @@
+.main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(220, 36, 36), rgb(74, 86, 157));
+}

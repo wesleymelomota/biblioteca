@@ -1,0 +1,46 @@
+.ebook {
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin: 3px;
+}
+.ebook .titulo{
+    width: 90%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ebook .autor{
+    display: flex;
+    
+}
+hr {
+    background-color: black;
+}
+.ebook .sinopse{
+    font-size: 15px;
+    font-family: arial;
+    max-width: 400px;
+    text-align: center;
+}
+
+.ebook .acoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.ebook .acoes .btns button{
+    margin: 2px;
+}
+
+.border-green{
+    border: 2px solid green;
+}

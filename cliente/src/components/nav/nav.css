@@ -1,0 +1,23 @@
+.nav{
+    display: block;
+    background-color: rgb(20, 20, 20);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: white;
+}
+.nav ul a:hover {
+    background-color: linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));
+}
+.nav ul {
+    list-style: none;
+}
+
+.nav .dropdown-menu .dropdown-item {
+    color:rgb(20, 20, 20);
+}

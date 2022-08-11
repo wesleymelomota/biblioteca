@@ -1,0 +1,17 @@
+.app{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 225px 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "nav main"
+    ;
+}
+
+nav.nav {
+    grid-area: nav;
+}
+
+main.main {
+    grid-area: main;
+}
